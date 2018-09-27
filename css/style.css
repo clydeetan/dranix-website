@@ -1,0 +1,202 @@
+/******** googe fonts import *********/
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/******** globals *********/
+.highlight{
+    color: red;
+}
+
+a{
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+.fa-twitter-square{
+    color:rgb(116, 198, 248);
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+.fa-facebook{
+    color:  rgb(25, 64, 148);
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+.fa-twitter-square:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.fa-facebook:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.active{
+    color: red !important;
+}
+
+/******** navbar *********/
+.navbar{
+    background: #ffffff;
+    border-bottom-style: ridge;
+    border-color: #000000;
+    border-width: 1px;
+    top: 24px;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+.navbar .nav-link{
+    font-size: 12px !important;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar .nav-link:hover{
+    color: red !important;
+}
+.home-header{
+    background: #000000;
+    top: 0;
+}
+
+.dranix-logo{
+    width: 185px;
+}
+
+/******** newsletter *********/
+.jumbotron{
+    background: #000000;
+    border-radius: 0 !important;
+}
+.jumbotron h1, .jumbotron p{
+    font-weight: bold;
+    color: #ffffff;
+}
+.nl-email{
+    border: none;
+    border-radius: 0;
+}
+.btn-nl {
+    border-radius: 0;
+}
+
+/******** principal *********/
+#principals{
+
+    background-size: 100%
+}
+
+.principal-logos{
+    width: 140px;
+    padding: 20px;
+}
+
+.principal-globe{
+    width: 200px;
+    padding: 20px;
+}
+
+.hovereffect img {
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/******** footer *********/
+.footer{
+    background: #000000;
+}
+
+.dranix-email{
+    background: red;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: 5px;
+}
+.dranix-email:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.footer .spacing{
+    margin-bottom: 7px;;
+}
+.footer p{
+    color: #ffffff;
+}
+
+
+
+
+/********** company-overview page *********/ 
+/********** company-overview page *********/ 
+.card-header-bg, .card-header-bg h3{
+    background: red;
+    color: #ffffff;
+}
+
+#showcase2{
+    background:linear-gradient(rgba(20,20,20, .8), rgba(20,20,20, .8)), url(../img/showcase2.png) no-repeat;
+    background-size: cover;
+    max-height: 325px;
+}
+#showcase2 h1{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.cards-row {
+    margin-bottom: 50px;
+}
+
+
+
+
+/********* branches page************/
+/********* branches page************/
+#map{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
+
+#pac-input {
+    width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 20px;
+    border: solid;
+    border-width: 2px;
+    border-color: red;
+}
+#locate-branch{
+    font-weight: bolder;
+    color: white;
+}
+
+.branch-bg-search-box{
+background: red;
+}
