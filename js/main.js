@@ -10,7 +10,7 @@ var markers = [
   ['Tacloban Branch', 11.1913158, 125.0031254, 4],
   ['Ormoc Branch', 10.977378, 124.631539, 3],
   ['Bohol Branch', 9.8500, 124.1435, 2],
-  ['Tagunol Branch', 10.2972, 123.8861, 8],
+  ['Tagunol Branch', 10.283813, 123.867098, 8],
   ['Paknaan Branch', 10.345964, 123.956950, 1],
   ['Tayud Branch', 10.348997, 123.922271, 9],
   ['Masbate Branch', 12.3719152,123.6361883, 10],
