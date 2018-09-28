@@ -160,9 +160,10 @@ a{
     background-size: cover;
     max-height: 325px;
 }
-#showcase2 h1{
-    padding-top: 150px;
-    padding-bottom: 100px;
+#showcase2 .header{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    font-weight: bolder;
 }
 
 .cards-row {
