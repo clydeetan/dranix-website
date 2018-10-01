@@ -11,7 +11,12 @@ body{
 .highlight{
     color: red;
 }
-
+#me{
+    font-size: 10px;
+    margin-right: 20px;
+    color: hsl(0, 0%, 15%);
+    padding: 0;
+}
 a{
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -156,9 +161,9 @@ a{
 }
 
 #showcase2{
-    background:linear-gradient(rgba(20,20,20, .8), rgba(20,20,20, .8)), url(../img/showcase2.png) no-repeat;
+    background:linear-gradient(rgba(20,20,20, .8), rgba(20,20,20, .8)), url(../img/showcase2.png) center;
+    background-repeat: no-repeat;
     background-size: cover;
-    max-height: 325px;
 }
 #showcase2 .header{
     padding-top: 100px;
@@ -200,4 +205,20 @@ a{
 
 .branch-bg-search-box{
 background: red;
+}
+
+/* awards and recognitions */
+.card-awards{
+    margin: 20px 0 20px 0;
+}
+
+#awards-and-recognitions{
+    background:linear-gradient(rgba(20,20,20, .8), rgba(20,20,20, .8)), url(../img/awards.png) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#awards-and-recognitions .header{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    font-weight: bolder;
 }
