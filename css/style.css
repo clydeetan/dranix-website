@@ -189,14 +189,10 @@ a{
 }
 
 #pac-input {
-    width: 300px;
+    width: 350px;
     font-size: 15px;
     font-weight: bold;
     color: #000000;
-    border-radius: 20px;
-    border: solid;
-    border-width: 2px;
-    border-color: red;
 }
 #locate-branch{
     font-weight: bolder;
