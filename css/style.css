@@ -190,10 +190,11 @@ a{
 }
 
 #pac-input {
-    width: 350px;
+    max-width: 300px;
     font-size: 15px;
     font-weight: bold;
     color: #000000;
+    border-radius: 15px;
 }
 #locate-branch{
     font-weight: bolder;
